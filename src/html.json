@@ -1,0 +1,13 @@
+{
+
+	"teamy-input": {
+		"prefix": "yminput",
+		"body": [
+			"<div class=\"ym-input-group ym-form-control\">",
+			"<input id=\"${page_id}-$1\" type=\"text\" class=\"validate browser-default\" placeholder=\"$0\" value.bind=\"$2\">",
+			"<label class=\" active\" for=\"${page_id}-$1\">地址</label>",
+		"</div>"
+		],
+		"description": "亿米输入框"
+	}
+}

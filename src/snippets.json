@@ -1,0 +1,52 @@
+{
+	"http get": {
+		"prefix": "l-get",
+		"body": [
+			"this$1().then(",
+			"res => {",
+			"if (res.ok) {",
+			"console.log('res.ok', res)",
+			"$2 = res.payload",
+			"}",
+			"else {",
+			"console.log('res.ok false', res)",
+			"}",
+			"}",
+			"}, (err) => {",
+			"console.log('no',err)",
+			"});",
+			"$3"
+		],
+		"description": "http get fetch"
+	},
+	"http post": {
+		"prefix": "l-post",
+		"body": [
+			"this$1(data).then(",
+			"res => {",
+			"if (res.ok) {",
+			"console.log('res.ok', res)",
+			"$2 = res.payload",
+			"}",
+			"else {",
+			"console.log('res.ok false', res)",
+			"}",
+			"}",
+			"}, (err) => {",
+			"console.log('no',err)",
+			"});",
+			"$3"
+		],
+		"description": "http post fetch"
+	},
+	"l-Author & Time": {
+		"prefix": "l-Author",
+		"body": [
+			"/**",
+			" * Created by preference on $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE",
+			" */",
+			"$0"
+		],
+		"description": "添加作者和时间注释"
+	}
+}

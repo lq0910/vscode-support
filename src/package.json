@@ -1,0 +1,35 @@
+{
+	"name": "lq-snippet",
+	"displayName": "lq-snippet",
+	"description": "TypeScript & Html Template",
+	"version": "0.0.2",
+	"publisher": "15750666188",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"keywords": [
+		"lq",
+		"lq-snippet",
+		"代码片段",
+		"aurelia",
+		"typeScript",
+		"ts",
+		"代码注释"
+	],
+	"icon": "vs-code-logo.png",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "typescript",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "html",
+				"path": "./html.json"
+			}
+		]
+	}
+}
